@@ -1,0 +1,149 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.example
+
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Lock files (optional - keep if you want to ensure consistency, remove if you prefer flexibility)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+.vim/
+.emacs
+*.code-workspace
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE specific
+.vscode-server/
+.vscode-server-insiders/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Testing
+.mocha_output/
+*.test.js
+*.spec.js
+
+# npm
+.npm
+.package-lock.json
+
+# pnpm
+.pnpm-store/
+
+# yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Miscellaneous
+dist-ssr/
+*.local
+.turbo/
+
+# Backend specific
+backend/dist/
+backend/node_modules/
+backend/.env
+backend/.env.local
+backend/uploads/
+backend/.drizzle/
+
+# Frontend specific
+frontend/dist/
+frontend/node_modules/
+frontend/.env
+frontend/.env.local
+frontend/build/
+
+# Vite
+.vite/
+
+# Development
+.cache/
+.eslintcache
+.prettier-ignore
+
+# Database files (if using local SQLite or similar)
+*.db
+*.sqlite
+*.sqlite3
+
+# API keys, secrets, and credentials
+.auth
+.credentials
+auth-token
+*.key
+*.pem
+
+# IDE debugging
+.vscode/launch.json
+.vscode/settings.json
+
+# OS and system files
+.AppleDouble
+.LSOverride
+
+# Docker
+.dockerignore
+
+# System files to ignore
+Thumbs.db
+.Thumbs.db
